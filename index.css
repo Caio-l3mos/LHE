@@ -4,6 +4,10 @@
     border: 0;
 
 }
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #eceeee;
+}
 
 .container-header {
 
@@ -146,43 +150,42 @@ nav {
 .sobre {
     display: flex;
     height: 100vh;
-    width: 100%;
-    
-    justify-content: center;
+    width: 80%;
+    margin: auto;
     align-items: center;
+    justify-content: center;
+    GAP: 10%;
     
+
 
 
 }
-img{
+
+img {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-
-.image {
     
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-
-    border-radius: 10px;
-
-
+    border-radius: 20px;
 }
+
+
+
+
 
 .text-sobre {
-    height: 50vh;
+
     width: 25%;
-    margin: auto;
     justify-content: center;
-    align-items: center;
+
     margin-top: 10%;
 
 
 
+}
+
+.text-sobre p {
+    margin-top: 20px;
 }
 
 
@@ -194,12 +197,9 @@ img{
 
     height: 100vh;
     justify-content: center;
-
-    align-items: center;
     width: 100%;
-
     display: flex;
-    background-color: #8e999a;
+    background-color: #fff;
 
 
 
@@ -207,7 +207,7 @@ img{
 
 
 form {
-    width: 80%;
+  
 
     min-width: 28.125em;
     max-width: 35em;
@@ -290,18 +290,13 @@ legend {
     align-items: center;
     display: flex;
     gap: 20%;
+    justify-content: center;
 
 
 
 }
 
-footer {
-    display: flex;
-    width: 100%;
 
-
-
-}
 
 
 .container-footer p {
@@ -336,3 +331,56 @@ footer {
 .btn-wats {
     height: 200px;
 }
+
+
+
+/*--------------------------- servicos ---------------------*/
+
+
+.servicos {
+
+    display: flex;
+    align-items: center;
+    height: 300vh;
+    width: 100%;
+   flex-direction: column;
+   gap: 90px;
+   background-color:#848684;
+   color: #fff;
+  
+   
+}
+.cardinfo{
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 80%;
+     gap: 90px;
+  
+    
+    
+
+}
+.descricao{
+    width: 400px;
+    margin-left:30px ;
+
+}
+
+.descricao h2{
+    font-size: 50px;
+
+}
+
+.descricao p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.imginst{
+    height: 750px;
+
+}
+
+
+
